@@ -308,14 +308,14 @@
    </pre>
    <pre class="ans">
     ANSWER NO8:-
-    onst isAllPass = (N, Arr) => 
+    const isAllPass = (N, Arr) => 
     {
-        for(let i=0;i< N;i++){
+        for(let i=0;i < N;i++){
           if(Arr[i]<32){
-            return "NO";
+            return " NO " ;
           }
         }
-        return "YES";
+        return " YES " ;
     };
     </pre>
     <hr>
@@ -415,7 +415,7 @@
     ANSWER NO 10:-
     function arrayMin(arr) {
         let min = arr[0]; 
-        for (let i = 1; i <arr.length; i++) { 
+        for (let i = 1; i < arr.length; i++) { 
         if(arr[i] < min) {
         min = arr[i];
         }
@@ -476,12 +476,12 @@
     ANSWER NO11:-
      function Birthday_Game(arr,D ,M) {
      let ans=0;
-     for(let i=0;i<=arr.length-M;i++){
+     for(let i=0;i < = arr.length-M;i++){
       let add = 0;
-      for(let j=i;j<i+M;j++){
+      for(let j=i;j< i+M ; j++){
         add = add + arr[j];
       }
-      if(add===D){
+       if (add=== D){
            ans++;
       }
      }
